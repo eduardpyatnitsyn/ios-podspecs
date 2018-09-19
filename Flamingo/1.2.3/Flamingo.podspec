@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.source                  = { :git => 'https://github.com/elegion/ios-Flamingo.git', :tag => "v#{s.version}" }
 
   s.ios.deployment_target   = '9.0'
+  s.watchos.deployment_target   = '2.0'
   s.requires_arc            = true
 
   s.source_files            = 'Source'
